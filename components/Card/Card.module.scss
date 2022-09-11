@@ -82,7 +82,10 @@ $slightly-transparent-white-stat: hsla(0, 0%, 100%, 0.6);
 
 .datapoint__label {
   color: $slightly-transparent-white-stat;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
   margin: 0;
 }
 

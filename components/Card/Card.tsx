@@ -6,8 +6,16 @@ export default function Card() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <img className={styles.image__desktop} src={ImageDesktop.src} />
-        <img className={styles.image__mobile} src={ImageMobile.src} />
+        <img
+          className={styles.image__desktop}
+          alt="Happy office workers."
+          src={ImageDesktop.src}
+        />
+        <img
+          className={styles.image__mobile}
+          alt="Happy office workers."
+          src={ImageMobile.src}
+        />
         <div className={styles.overlay} />
       </div>
       <div className={styles.content}>
